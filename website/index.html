@@ -41,7 +41,10 @@
     <!-- Navigation -->
     <nav
         class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-4 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800 transition-all duration-300">
-        <div class="text-2xl font-black italic tracking-tighter text-primary-container">Hellsafe</div>
+        <div class="flex items-center gap-3">
+            <img src="../png/lppl-logo.png" alt="LPPL Logo" class="h-8 w-auto object-contain">
+            <div class="text-2xl font-black italic tracking-tighter text-primary-container">Hellsafe</div>
+        </div>
         <div class="hidden md:flex gap-8 items-center">
             <a class="font-display uppercase tracking-widest text-[10px] font-bold text-primary-container border-b-2 border-primary-container pb-1"
                 href="#home">Home</a>
@@ -185,30 +188,89 @@
                     <!-- Member 3 -->
                     <div class="group reveal" style="transition-delay: 0.2s">
                         <div class="relative aspect-[4/5] mb-8 overflow-hidden bg-zinc-800">
-                            <img src="../png/team_photo.png"
+                            <img src="../png/sampath kumar.png"
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
                                 alt="Jaxson">
                             <div
                                 class="absolute bottom-0 left-0 w-full p-4 translate-y-full group-hover:translate-y-0 transition-transform bg-primary-container text-black">
-                                <p class="font-display text-[10px] font-bold uppercase tracking-widest">CHIEF TEST PILOT
+                                <p class="font-display text-[10px] font-bold uppercase tracking-widest">Mentor
                                 </p>
                             </div>
                         </div>
-                        <h4 class="font-display text-xl text-white font-bold uppercase">Jaxson Vane</h4>
+                        <h4 class="font-display text-xl text-white font-bold uppercase">Dr. Sampath Kumar </h4>
                     </div>
                     <!-- Member 4 -->
                     <div class="group reveal" style="transition-delay: 0.3s">
                         <div class="relative aspect-[4/5] mb-8 overflow-hidden bg-zinc-800">
-                            <img src="../png/team_photo.png"
+                            <img src="../png/kulwant.png"
                                 class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
-                                alt="Sofia">
+                                alt="Dr. Kulwant Singh">
                             <div
                                 class="absolute bottom-0 left-0 w-full p-4 translate-y-full group-hover:translate-y-0 transition-transform bg-primary-container text-black">
-                                <p class="font-display text-[10px] font-bold uppercase tracking-widest">HARDWARE
-                                    ARCHITECT</p>
+                                <p class="font-display text-[10px] font-bold uppercase tracking-widest">Mentor</p>
                             </div>
                         </div>
-                        <h4 class="font-display text-xl text-white font-bold uppercase">Sofia Ricci</h4>
+                        <h4 class="font-display text-xl text-white font-bold uppercase">Dr. Kulwant Singh</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notice -->
+        <section class="py-32 px-6 border-t border-zinc-800 reveal" id="notice">
+            <div class="container mx-auto max-w-5xl">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+                    <div>
+                        <span
+                            class="font-display text-primary-container tracking-[0.4em] text-[10px] font-bold uppercase block mb-4">Latest
+                            Updates</span>
+                        <h2 class="font-display text-5xl text-white font-black uppercase">Notice Board</h2>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div
+                        class="group border border-zinc-800 bg-zinc-900/50 p-8 hover:border-primary-container transition-all flex flex-col md:flex-row md:items-center gap-6">
+                        <div
+                            class="flex-shrink-0 text-zinc-500 font-display text-[10px] font-bold uppercase tracking-widest">
+                            [ OCT 12, 2026 ]
+                        </div>
+                        <div class="flex-grow">
+                            <h3
+                                class="font-display text-xl text-white font-bold uppercase mb-2 group-hover:text-primary-container transition-colors">
+                                AeroVest Prime Production Update</h3>
+                            <p class="text-zinc-400 text-sm">Initial production run completed. Preparing for widespread
+                                distribution to track teams.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group border border-zinc-800 bg-zinc-900/50 p-8 hover:border-secondary transition-all flex flex-col md:flex-row md:items-center gap-6">
+                        <div
+                            class="flex-shrink-0 text-zinc-500 font-display text-[10px] font-bold uppercase tracking-widest">
+                            [ SEP 28, 2026 ]
+                        </div>
+                        <div class="flex-grow">
+                            <h3
+                                class="font-display text-xl text-white font-bold uppercase mb-2 group-hover:text-secondary transition-colors">
+                                Vortex Intake Compatibility Expanded</h3>
+                            <p class="text-zinc-400 text-sm">New adapter rings released, expanding compatibility to
+                                additional trellis frame configurations.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group border border-zinc-800 bg-zinc-900/50 p-8 hover:border-primary-container transition-all flex flex-col md:flex-row md:items-center gap-6">
+                        <div
+                            class="flex-shrink-0 text-zinc-500 font-display text-[10px] font-bold uppercase tracking-widest">
+                            [ SEP 05, 2026 ]
+                        </div>
+                        <div class="flex-grow">
+                            <h3
+                                class="font-display text-xl text-white font-bold uppercase mb-2 group-hover:text-primary-container transition-colors">
+                                Beta Testing Program Open</h3>
+                            <p class="text-zinc-400 text-sm">Applications are now open for professional riders to
+                                participate in our closed beta testing of the liquid cooling nodes.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -234,27 +296,27 @@
                     <div class="aspect-square overflow-hidden bg-zinc-900 group">
                         <img alt="Gallery 1"
                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                            src="../png/gallery_rider.png">
+                            src="../png/1.jpg">
                     </div>
                     <div class="aspect-square md:col-span-2 md:row-span-2 overflow-hidden bg-zinc-900 group">
                         <img alt="Gallery 2"
                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                            src="../png/jacket_detail.png">
+                            src="../png/6.jpg">
                     </div>
                     <div class="aspect-square overflow-hidden bg-zinc-900 group">
                         <img alt="Gallery 3"
                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                            src="../png/hero_jacket.png">
+                            src="../png/3.jpg">
                     </div>
                     <div class="aspect-square overflow-hidden bg-zinc-900 group">
                         <img alt="Gallery 4"
                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                            src="../png/air_device.png">
+                            src="../png/4.jpg">
                     </div>
                     <div class="aspect-square overflow-hidden bg-zinc-900 group">
                         <img alt="Gallery 5"
                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                            src="../png/hero_jacket.png">
+                            src="../png/5.jpg">
                     </div>
                 </div>
             </div>
