@@ -24,24 +24,22 @@ The Hellsafe website is designed to communicate the value of the company's advan
 ## 📁 Directory Structure
 ```text
 lppl check/
-├── website/
-│   ├── index.html       # Main HTML file
-│   ├── style.css        # Custom CSS and animations
-│   └── script.js        # Interactivity and scroll reveals
-├── png/                 # Directory containing all high-res assets and images
+├── index.html       # Main HTML file
+├── style.css        # Custom CSS and animations
+├── script.js        # Interactivity and scroll reveals
+├── png/             # Directory containing all high-res assets and images
 └── README.md
 ```
-*(Note: For seamless deployment on platforms like Vercel, it is recommended to either move the `png` folder inside the `website` directory or move the code files out to the root directory to fix relative image paths.)*
 
 ## 🌐 Deployment (Vercel)
 
 To deploy this website live using Vercel:
 
-1. **Pre-deployment Fix**: Ensure your `index.html` and `png` folder share the correct root relationship. If you deploy the `website/` folder as your root directory, you must move the `png/` folder inside it and update your image paths from `../png/image.png` to `./png/image.png`.
-2. Push your code to a GitHub repository.
-3. Log in to [Vercel](https://vercel.com/) and click **Add New Project**.
-4. Import your GitHub repository.
-5. If your HTML is inside the `website` folder, set the **Root Directory** to `website` in the Vercel project settings.
+1. Push your code to a GitHub repository.
+2. Log in to [Vercel](https://vercel.com/) and click **Add New Project**.
+3. Import your GitHub repository.
+4. Keep the **Framework Preset** as `Other`.
+5. Keep the **Root Directory** as `./`.
 6. Click **Deploy**.
 
 ## 🤝 The Collective (Team)
